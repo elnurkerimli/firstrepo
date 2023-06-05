@@ -12,6 +12,7 @@ public class ReturningAnArray {
         for(int i=0; i<size; i++) {
             myArray[i] = sc.nextInt();
         }
+        
         return myArray;
     }
 
@@ -20,4 +21,5 @@ public class ReturningAnArray {
         int arr[] = obj.createArray();
         System.out.println("Array created is :: "+Arrays.toString(arr));
     }
+    
 }
